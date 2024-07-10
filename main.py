@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-path_to_file = 'C:/Users/Cudlino/Documents/CUW/Spring 2024 Courses/Artificial Intelligence/Unit 5/auto_mpg_1983.csv'
+path_to_file = '../auto_mpg_1983.csv'
 df = pd.read_csv(path_to_file)
 # print(df.head())
 # print(df.shape)
